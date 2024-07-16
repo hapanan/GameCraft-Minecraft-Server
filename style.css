@@ -1,0 +1,63 @@
+body {
+  background: #001219;
+  color: #faa307;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Header {
+  background: black;
+  border-bottom: 3px solid black;
+  animation: colors 6s;
+  height: 50px;
+  width: 100%;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  opacity: 0.3;
+  position: absolute;
+}
+
+
+
+.Header h2 {
+  position: relative;
+  bottom: 5px;
+  left: 600px;
+  animation: Name_V;
+}
+
+.alict {
+  position: relative;
+  top: 7px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.aown {
+  font-size: 28px;
+  color: #ffd100;
+}
+
+.atwo {
+  color: #ffd100;
+}
+
+.athree {
+  color: #ffd100;
+}
+
+.imgback {
+  width: 100%;
+  position: relative;
+  top: 100px;
+}
+
+.footer {
+  position: relative;
+  top: 120px;
+
+  display: flex;
+  justify-content: space-evenly;
+}
